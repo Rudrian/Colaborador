@@ -1,5 +1,8 @@
 package com.projetojpa.Repository;
 
-public interface ColaboradorRepository {
+import org.springframework.data.jpa.repository.JpaRepository;
 
+import com.projetojpa.Entity.Colaborador;
+
+public interface ColaboradorRepository extends JpaRepository<Colaborador, Long> {
 }
